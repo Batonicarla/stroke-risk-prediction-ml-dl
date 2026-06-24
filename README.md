@@ -7,7 +7,7 @@ Stroke is one of the leading causes of death and long-term disability worldwide.
 
 This project investigates the use of Machine Learning (ML) and Deep Learning (DL) techniques for predicting stroke risk using clinical and demographic data. Multiple traditional ML and neural network models were developed, trained, and evaluated to determine the most effective approach for stroke prediction.
 
----
+
 
 ## Objectives
 
@@ -19,12 +19,12 @@ The objectives of this project were:
 * Evaluate models using clinically meaningful metrics.
 * Identify the most important factors contributing to stroke risk.
 
----
+
 
 ## Dataset
 
 Dataset: Kaggle Healthcare Stroke Prediction Dataset
-
+https://www.kaggle.com/code/rishabh057/healthcare-dataset-stroke-data
 * Total records: 5,110 patients
 * Features: 11 clinical and demographic attributes
 * Target variable: Stroke (0 = No Stroke, 1 = Stroke)
@@ -43,7 +43,7 @@ Dataset: Kaggle Healthcare Stroke Prediction Dataset
 * Smoking Status
 * Stroke (Target)
 
----
+
 
 ## Exploratory Data Analysis
 
@@ -59,7 +59,7 @@ Key findings from EDA:
 
 Because of this imbalance, accuracy alone was not used as the primary evaluation metric.
 
----
+
 
 ## Data Preprocessing
 
@@ -72,7 +72,7 @@ The preprocessing pipeline included:
 * Class balancing using SMOTE
 * Stratified train/validation/test split
 
----
+
 
 ## Models Implemented
 
@@ -89,7 +89,7 @@ The preprocessing pipeline included:
 6. Functional API Deep Neural Network
 7. Class-Weighted Deep Neural Network
 
----
+
 
 ## Evaluation Metrics
 
@@ -103,7 +103,7 @@ The models were evaluated using:
 
 AUC-ROC was selected as the primary evaluation metric because it is more reliable for imbalanced datasets.
 
----
+
 
 ## Results
 
@@ -127,7 +127,7 @@ The Functional API Deep Neural Network achieved the best overall performance:
 
 The architecture processed numerical and categorical features separately before combining them, leading to improved generalization and reduced overfitting.
 
----
+
 
 ## Key Findings
 
@@ -136,7 +136,7 @@ The architecture processed numerical and categorical features separately before 
 * Class imbalance significantly affected model performance.
 * The Functional API DNN provided the best balance between precision and recall.
 
----
+
 
 ## Technologies Used
 
@@ -151,7 +151,7 @@ The architecture processed numerical and categorical features separately before 
 * XGBoost
 * Imbalanced-learn (SMOTE)
 
----
+
 
 ## Future Improvements
 
@@ -163,7 +163,7 @@ Potential improvements include:
 * Larger real-world clinical datasets
 * External validation on independent patient populations
 
----
+
 
 ## Author
 
