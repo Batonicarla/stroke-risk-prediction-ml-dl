@@ -168,11 +168,13 @@ Potential improvements include:
 ## Author
 
 **Carla Batoni**
+
 video link: https://go.screenpal.com/watch/cO1Z1dnu8sO
+
+
 document link:https://docs.google.com/document/d/1K5rQ1O7IxBZTWHcCQMiMQufgwKa5QX-N--uPGWRnGtI/edit?tab=t.0
 
 Machine Learning Summative Project
 
 24 June 2026
 
-This project is intended for educational and research purposes.
